@@ -1,0 +1,66 @@
+.email-signup {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: #E0783B;
+    color: #fff;
+}
+
+#email {
+    margin-left: 5%;
+    border: none;
+    width: 30%;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+#email::placeholder {
+    color: rgb(204, 201, 201);
+}
+
+.footer {
+    margin-top: -16px;
+    height: 40vh;
+    background-color: #152C39;
+    font-family: sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer>ul {
+    color: #fff;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 5% 0%;
+}
+
+.footer>ul>li {
+    padding-right: 6%;
+    border-right: 1px solid rgba(208, 208, 208, 0.2);
+    height: 25px;
+}
+
+.footer>ul>li:hover {
+    color: tomato;
+}
+
+.icons-img {
+    width: 40%;
+    margin-left: 23%;
+    margin-bottom: 3%;
+}
+
+.footer > p {
+    font-weight: 100;
+    color: #aaa;
+    width: 40%;
+    margin-left: 33%;
+}

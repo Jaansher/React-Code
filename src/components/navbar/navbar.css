@@ -1,0 +1,41 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.navbar > ul{
+    margin-left: 10%;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    width: 55%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar > ul > li:hover{
+    color: tomato;
+}
+
+
+.options{
+    margin-left:10% ;
+    padding: 1%;
+    width: 25%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.user-icon{
+    margin-right: 15%;
+}
+
+.lang-options{
+    margin-left: 2%;
+    font-weight: bold;
+    color: tomato;
+}
